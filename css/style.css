@@ -1,6 +1,7 @@
 @import url("global.css");
 @import url("header.css");
 @import url("hero.css");
+@import url("offers.css");
 @font-face {
   font-family: "Montserrat";
   src: url("../fonts/Montserrat-VariableFont_wght.ttf");
@@ -42,4 +43,25 @@ button {
 
 body {
   font-family: "Montserrat", sans-serif;
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--titles-weight);
+  margin: 0px;
+  text-align: center;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
 }
