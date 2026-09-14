@@ -48,12 +48,11 @@ body {
   text-align: center;
 }
 
-.section-title hr {
-  width: 180px;
-  height: 4px;
-  background-color: var(--secondary-color);
-  border: none;
-  margin: 16px auto 32px;
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+  margin: 0 auto;
 }
 
 .button {
