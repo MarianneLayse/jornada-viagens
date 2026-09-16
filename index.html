@@ -207,28 +207,39 @@
         <h2>Condições de Pagamento</h2>
         <hr />
       </div>
-      <div class="payments-text-content">
-        <h3 class="payments-content-title">Parcelamento em até 12x!</h3>
-        <p class="payments-content-text">
-          Viaje pagando em até 12 parcelas no cartão, à vista no crédito com 5%
-          de desconto ou no Pix com 10% de desconto!
-        </p>
-      </div>
-      <div class="image-content">
-        <div class="image-row">
+      <div class="content-container">
+        <div class="payments-text-content">
+          <h3 class="payments-content-title">Parcelamento em até 12x!</h3>
+          <p class="payments-content-text">
+            Viaje pagando em até 12 parcelas no cartão, à vista no crédito com 5%
+            de desconto ou no Pix com 10% de desconto!
+          </p>
+        </div>
+        <div class="image-content">
           <div class="image bag">
-            <img src="img/bag.mobile.png" alt="imagem de duas malas abertas" />
+            <picture>
+              <source media="(min-width: 768px)" srcset="img/bag.tablet.png" />
+              <img src="img/bag.mobile.png" alt="imagem de duas malas abertas" />
+            </picture>
           </div>
           <div class="image passport">
-            <img
-              src="img/passport.mobile.png"
-              alt="imagem de duas pessoas segurando passaportes"
-            />
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="img/passport.tablet.png"
+              />
+              <img
+                src="img/passport.mobile.png"
+                alt="imagem de duas pessoas segurando passaportes"
+              />
+            </picture>
           </div>
-        </div>
-        <div class="image people">
-          <img src="img/people.mobile.png" alt="imagem de duas pessoas" />
-        </div>
+          <div class="image people">
+            <picture>
+              <source media="(min-width: 768px)" srcset="img/people.tablet.png" />
+              <img src="img/people.mobile.png" alt="imagem de duas pessoas" />
+            </picture>
+          </div>
       </div>
     </section>
   </body>
