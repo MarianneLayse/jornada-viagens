@@ -6,6 +6,7 @@
 @import url("destinations.css");
 @import url("payments.css");
 @import url("testemonials.css");
+@import url("footer.css");
 @font-face {
   font-family: "Montserrat";
   src: url("../fonts/Montserrat-VariableFont_wght.ttf");
